@@ -146,6 +146,14 @@ CREATE TABLE Rubro
 );
 
 
+CREATE TABLE Usuario
+(
+	IdUsuario INT NOT NULL PRIMARY KEY
+	,Nombre varchar(70) NOT  NULL
+	,Contrasenia varchar(20) NOT NULL
+  ,TipoUsuario INT NOT NULL
+);
+
 -- FK KEYS
 
 ALTER TABLE Pago_Ingreso ADD 
