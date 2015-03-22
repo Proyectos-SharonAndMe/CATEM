@@ -8,21 +8,22 @@ public class LoginAction extends ActionSupport{
 	 * 
 	 */
 	private static final long serialVersionUID = 2658561757488414192L;
-	private String username;
+	private String nombreUsuario;
     private String password;
+    private String mensaje;
 
 	@Override
 	public String execute() throws Exception {
-		
-		return super.execute();
+		mensaje="Hola"+ getUsername();
+		return "SUCCESS";//super.execute();
 	}
 
 	public String getUsername() {
-		return username;
+		return nombreUsuario;
 	}
 
 	public void setUsername(String username) {
-		this.username = username;
+		this.nombreUsuario = username;
 	}
 
 	public String getPassword() {
@@ -31,5 +32,13 @@ public class LoginAction extends ActionSupport{
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public String getMensaje() {
+		return mensaje;
+	}
+
+	public void setMensaje(String mensaje) {
+		this.mensaje = mensaje;
 	}
 }
