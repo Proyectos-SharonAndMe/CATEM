@@ -1,0 +1,33 @@
+div
+{
+	margin:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-aling:baseling;
+	
+	
+}
+body
+{
+	background:"#eee";
+	border-top: 5 solid #000;
+	color:#333;
+	font: 13/1.5 Helvetica,Arial, 'Liberation Sans', FreeSans, sans-serif;
+}
+.box
+{
+	background: #ddd;
+  	margin-bottom: 20px;
+  	padding: 10px 10px 1px 10px;
+}
+.box h2
+{
+	  font-size: 1em;
+	  font-weight: normal;
+	  text-transform: uppercase;
+	  color: #fff;
+	  background: #333;
+	  margin: -10px -10px 0 -10px;
+	  padding: 6px 12px;
+}

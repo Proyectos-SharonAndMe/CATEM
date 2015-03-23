@@ -4,12 +4,16 @@
 <html>
 <head>
 	<title>CATEM - Ingresar</title>
+	<link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-	<s:form action="LoginAction">     
+<div class="box">
+<h2><a ref="#" id=togle-login-forms style="cursor:pointer"; class="visible">Formulario de Login</a></h2>
+	<s:form action="loginAction">     
 		<s:textfield key="nombreUsuario" label="Nombre de Usuario" />
 	    <s:password key="password" label="Contraseña" />
  		<s:submit value="Enviar" />       
 	</s:form>
+	</div>
 </body>
 </html>

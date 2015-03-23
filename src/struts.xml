@@ -11,7 +11,7 @@
 		</result-types>
         
         <action name="login" class="ar.com.catem.actions.LoginAction">
-            <result name="success" type="tiles">/welcome.tiles</result>
+            <result name="success" type="tiles">Welcome.jsp</result>
             <result name="error">Login.jsp</result>
             <result name="input">Login.jsp</result>
         </action>       
